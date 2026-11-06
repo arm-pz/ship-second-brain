@@ -32,13 +32,23 @@ Ask it things like:
 
 A one-off summary of a single document. A shareable doc or wiki page built from the vault: use `docs`. A database, Notion space or plugin: a folder of markdown outlives all of them.
 
+## Test results
+
+Version 0.1.0: 16 trigger cases run in fresh Claude Code sessions. Routing: 14 pass, 2 fail. Behavior: 9 pass in plan mode. The full six-pass write run has not been run yet. Details and the two known misses are in [`tests/test-prompts.md`](tests/test-prompts.md).
+
 ## Install
+
+- Zip `skills/ship-second-brain/` (the folder itself is the top-level entry) and upload it in your Claude skills settings, or
+- Copy `skills/ship-second-brain/` into your skills directory, or
+- Install from GitHub:
 
 ```
 npx skills add arm-pz/ship-second-brain --skill ship-second-brain
 ```
 
-Or copy `skills/ship-second-brain/` into your agent's skills directory (`.claude/skills/`, `.agents/skills/`, `.cursor/skills/` or `.qoder/skills/`). With Claude Code plugins, `.claude-plugin/plugin.json` makes the repo installable as a plugin.
+Skills directories: Claude Code reads `~/.claude/skills/` or `.claude/skills/`; other agents read `.agents/skills/`, `.cursor/skills/` or `~/.qoder/skills/`. With Claude Code plugins, `.claude-plugin/plugin.json` makes the repo installable as a plugin.
+
+To confirm the install, start a new session and check that `ship-second-brain` appears in the agent's skill list. In Claude Code, type `/` and look for it.
 
 ## Structure
 

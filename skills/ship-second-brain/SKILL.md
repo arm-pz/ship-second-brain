@@ -1,19 +1,18 @@
 ---
 name: ship-second-brain
 description: >-
-  Builds and maintains a team second brain as one folder of markdown: raw
-  sources (issues, PRs, specs, call notes) saved first, cut into one-idea notes
-  that each carry a source and a confidence (seen, verified, opinion), linked to
-  the decisions they support or contradict, verified word for word against the
-  source, summed up in a daily today.md, and proven by an answer test a fresh
-  session must pass from the vault alone, with misses written to gaps.md. Use
-  whenever someone wants team memory, a knowledge vault, or project context
-  that survives sessions: turn these PRs and call notes into our second brain,
-  ingest this week's issues into the vault, can the vault answer these
-  questions, what did we decide about X and where is it written down, even if
-  they never say second brain. Not for a one-off summary of a single document,
-  a published doc or wiki page (use docs), or a database, Notion or plugin
-  setup.
+  Builds and maintains a team second brain in one markdown folder: raw issues,
+  PRs, specs and call notes saved first, cut into one-idea notes with a source
+  and confidence (seen, verified, opinion), linked, verified against the source,
+  summed up in today.md, and checked by an answer test, with misses in gaps.md.
+  Use whenever a question or task touches such a vault (a folder with raw/ and
+  notes carrying confidence front matter): what did we decide about X and where
+  is it written down, a new spec or source that says something different from a
+  verified note, ingest PRs or issues, file call notes, verify or upgrade notes,
+  clean up or delete files, run the answer test, stop re-explaining context
+  every session. Even if they never say second brain. Not for a one-off summary of one document, a shareable doc
+  built from the vault (use docs), or a database or Notion setup.
+version: 0.1.0
 ---
 
 # Ship Second Brain
