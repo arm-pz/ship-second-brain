@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "ship-second-brain",
+  "version": "0.1.0",
+  "description": "A team second brain as one folder of markdown: raw sources saved first, one-idea notes with a source and confidence on every claim, verified against the source, and an answer test a fresh session must pass from the vault alone.",
+  "author": {
+    "name": "arm-pz",
+    "url": "https://github.com/arm-pz"
+  },
+  "homepage": "https://github.com/arm-pz/ship-second-brain",
+  "repository": "https://github.com/arm-pz/ship-second-brain",
+  "keywords": ["second-brain", "knowledge-base", "markdown", "team-memory", "zettelkasten", "claude-code"],
+  "skills": "./skills/"
+}
